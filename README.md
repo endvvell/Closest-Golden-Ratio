@@ -12,9 +12,9 @@ One thing you might notice, is that the PHI number is not represented in it's en
 1.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 ([source](https://oeis.org/A001622/constant))
 
 Instead, you receive following results:
-Python Decimal definition = 1.6180339887498949025257388711906969547271728515625
-Arithmetic definition = 1.618033988749895
-Scipy library definition = 1.618033988749895
+- Python Decimal definition = 1.6180339887498949025257388711906969547271728515625
+- Arithmetic definition = 1.618033988749895
+- Scipy library definition = 1.618033988749895
 
 This is due to the floating-point computation rounding error that you can read more about [here](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html#:~:text=of%20the%20theorem.-,Rounding%20Error,-Squeezing%20infinitely%20many) or watch [this video](https://www.youtube.com/watch?v=PZRI1IfStY0).
 
