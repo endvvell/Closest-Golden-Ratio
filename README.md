@@ -6,7 +6,7 @@ Initially created this script out interest to the way golden ratio is present in
 For convenience you can provide upper threshold as an argument to the script like so: 
 findgold.py (space) \<your_number_here>
 
-**Be careful when specifying big upper threshold for the range.** 
+**Be careful when specifying big upper threshold for the range. (might take a lot of resources to compute)** 
 
 One thing you might notice, is that the PHI number is not represented in it's entirety, i.e:
 1.61803398874989484820458683436563811772030917980576286213544862270526046281890244970720720418939113748475 ([source](https://oeis.org/A001622/constant))
